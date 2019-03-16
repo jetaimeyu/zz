@@ -1,0 +1,78 @@
+body {
+	font-size: 14px; color: #000000; line-height: 144%;
+	margin: 0; background-image: url("../images/habg.gif");
+}
+.fl{float: left;}
+.fr {float: right;}
+.clear{clear:both;width:0; height:0;}
+.hidden { display: none;}
+a{ color: #000000;}
+a:visited { color: #000000; text-decoration: none; }
+a:hover { color: #ff0000; text-decoration: underline; }
+/*多行文本省略号 1行*/
+.list-font {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.list-name-left {width: 150px;}
+.list-name-right {width: 450px;}
+
+
+.page {margin: 0 auto;width: 990px; }
+#top-navi {margin: 0 auto;}
+.top-image-width { width: 990px; height: 200px;}
+.top-title { text-align: center; height: 50px; width: 990px; line-height: 50px; background-image: url("../images/menubg.gif"); color: #ffffff;  }
+a.menu{ color: #ffffff; margin-left: 30px; }
+.page-body { margin-top: -5px; width: 990px; background-color: #ffffff; }
+.left-body { width: 220px; font-size: 14px; line-height: 28px; }
+.left-body .product_center { background-image: url("../images/classbar.gif"); padding-left:25px; height: 27px;}
+.left-body .product_list {
+	border-left: 1px red solid; border-right: 1px red solid; border-bottom: 1px red solid;  padding: 30px 0 30px 30px ;
+}
+.left-body .list {line-height: 30px; }
+.left-body .list-image {
+	background-image: url("../images/class1.gif"); width: 15px; height:17px; margin: 6px 10px auto ;
+}
+.left-margin-top { margin-top: 20px; }
+.left-margin-top10 {margin-top: 5px; }
+.left-body .product_list_us {
+	border-left: 1px red solid; border-right: 1px red solid; border-bottom: 1px red solid;
+	padding-top: 20px;
+}
+.left-body .contact_us { background-image: url("../images/lianxiwome5n.jpg"); width: 210px; height: 90px;}
+.left-body .contact {margin-left: 10px;}
+.left-body .contact p {  margin: 0; line-height: 25px;}
+
+.right-body { margin: 10px 10px auto ; width: 750px; font-size: 14px; line-height: 28px;}
+.right-body .body-title-3 { background-image: url("../images/home_17.jpg"); width: 10px; height: 25px;}
+.right-body .body-title-1 { background-image: url("../images/home_18.jpg"); width: 103px; height: 25px; color: #ffffff;}
+.right-body .body-title-2 { background-image: url("../images/home_20.jpg"); width: 36px; height: 25px;}
+.right-body .right-info  a{ color: rgb(204, 0, 0);  margin-right: 50px; line-height: 30px;}
+.right-body .right_line-1 { border-bottom: 1px solid #dc1500;}
+.right-body .right_line-5 { border-bottom: 5px solid #fceae8;}
+
+.company-text { width: 490px;  margin-left: 20px;}
+.company-text-article {margin-left: 20px; width: 730px;}
+.right-image {width: 231px; height: 180px; margin-top: 30px;}
+.right-image .img-img { width: 220px; height: 175px;}
+.right-body .list-image {
+	background-image: url("../images/class1.gif"); width: 15px; height:17px; margin: 6px 20px auto ;
+}
+
+.right-body .product-list {margin: 10px 0 10px 10px;}
+.right-body .product-list a{margin-right: 10px;}
+.right-body .list {line-height: 30px; }
+.right-body .list-time { margin-right: 50px;}
+.right-body .image-product {width: 170px; height: 132px; border: 3px solid rgb(255, 153, 0); }
+.right-body .text-product { width: 170px; background-color: #E9E9E9; text-align: center; margin-bottom: 10px;}
+.right-body .product-a { margin-left: 10px;}
+
+.footer .footer-img { background-image: url("../images/bottom_bg.gif"); height: 5px;}
+.footer .link { border:#dfdfdf 4px solid; padding-left: 5px; height: 35px; line-height: 35px;}
+
+.page-other {margin: 20px 0; background-color: #ffffff; width: 990px;box-sizing: border-box;display: flex;flex-direction: column;text-align: center }
+.page-other .footer-text { margin-top: 10px;}
+.page-other.footer-content{
+	padding: 20px;
+}

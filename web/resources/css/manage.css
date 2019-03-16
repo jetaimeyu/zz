@@ -1,0 +1,46 @@
+*{margin:0; padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+input{outline:none;}
+button{outline:none;}
+
+html, body { background-color: #f3f3f3;}
+
+.menu{width:150px; background-color:#3c3c3c; position: fixed;  overflow: hidden; height: 100%;}
+.wrap {min-height: 100%; height: auto; padding-left:150px;}
+
+.menu-title {height:50px; line-height:50px; color:#fff; text-align: center; font-size:16px; border-bottom: 1px solid #444;}
+.menu-list {margin-top:5px;}
+.menu-list li{padding-left:15px;  height: 40px; line-height: 40px;}
+.menu-list a, .menu-list a:link, .menu-list a:hover, .menu-list a:active{color: #ddd; text-decoration: none; cursor: pointer;}
+.menu-list li.selected{background-color: #0a0a0a;}
+.menu-footer {position: fixed; bottom: 10px; color:#aaa; width:150px; text-align: center; font-size: 12px;}
+
+.wrap-header {height:50px; line-height:48px; border-bottom: 1px solid #eee; background-color: #fff;}
+.wrap-header .dropdown {float:right; padding:0px 20px; border-left:1px solid #eee;}
+.wrap-header .dropdown-menu {border-radius: 0px; border:0px;}
+.wrap-header a, .wrap-header a:link, .wrap-header a:hover, .wrap-header a:active {color:#666; text-decoration: none; cursor: pointer;}
+
+.breadcrumb {background-color: #ffffff; border:1px solid #eee; margin:15px 15px 0px; border-radius:0px;}
+
+.wrap-content {margin:15px 15px 0px; background-color: #fff;}
+
+.login-container { max-width: 400px; padding:15px; margin:0px auto; padding-top:50px;}
+.login-container .panel { padding-bottom:15px; margin-top: 15px;}
+
+.pagination {margin:0 15px 10px;}
+.pagination>li:first-child>a, .pagination>li:first-child>span {border-top-left-radius:1px; border-bottom-left-radius:1px; }
+.pagination>li:last-child>a, .pagination>li:last-child>span {border-top-right-radius:1px; border-bottom-right-radius:1px; }
+
+.panel {border-radius: 1px;}
+.input-sm, .btn-sm {border-radius: 2px;}
+.panel {margin-bottom:15px; border:0px;}
+.panel-body {padding:15px 15px 0px;}
+
+.table {border-bottom: 1px solid #efefef;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {border-top:1px solid #efefef;}
+.table td.middle {vertical-align: middle;}
+.help-block {font-size:80%}
+
+.alert-message {position: fixed; top:35%; width:100%; text-align: center;}
+#alertMessage {background:url("../images/opacity.png") 0 0 repeat; padding:10px 20px; color:#efefef; border-radius: 2px; display: none;}

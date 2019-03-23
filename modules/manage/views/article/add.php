@@ -7,8 +7,8 @@ use yii\helpers\Url;
 use app\models\ArticleCategory;
 use app\models\Articles;
 
-$this->title = $model->isNewRecord ? '添加案例' : '修改案例';
-$this->params['breadcrumbs'][] = ['label' => '案例管理', 'url' => ['index']];
+$this->title = $model->isNewRecord ? '添加文章' : '修改文章';
+$this->params['breadcrumbs'][] = ['label' => '文章管理', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="panel panel-default">

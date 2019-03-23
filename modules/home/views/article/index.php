@@ -34,10 +34,10 @@ use app\widget\FooterWidget;
             </div>
 
             <div style="margin-top: 50px;">
-                <?php if($lastNext['last']['id']) :?>
+                <?php if($lastNext['last'] && $lastNext['last']['id']) :?>
                     <div class="fl">上一篇：<a href="<?=Url::to(['index', 'id' => $lastNext['last']['id']])?>"><?=$lastNext['last']['name']?></a></div>
                 <?php endif;?>
-                <?php if($lastNext['next']['id']) :?>
+                <?php if($lastNext['next'] && $lastNext['next']['id']) :?>
                     <div class="fr">下一篇：<a href="<?=Url::to(['index', 'id' => $lastNext['next']['id']])?>"><?=$lastNext['next']['name']?></a></div>
                 <?php endif;?>
                 <div class="clear"></div>

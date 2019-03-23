@@ -34,8 +34,7 @@ class ArticleController extends Controller
         $company = Company::getInfoById($this->_companyId);
         //公司新闻
         $news = Articles::getNewList();
-
-        $id = $_GET['id'];
+        $id =Yii::$app->request->get('id');
         $model = Articles::find()->andWhere(['company_id' => $this->_companyId, 'id' => $id, 'is_show' => STATE_YES])->one();
         if(!$id || !$model) {
             return $this->redirect('default/error');
@@ -54,7 +53,6 @@ class ArticleController extends Controller
         $lastNext = Articles::getLastAndNextOneById($id);
 
         $link = Link::getArrayForCompany();
-
         return $this->render('index', [
             'company' => $company, 'news' => $news, 'link' => $link,
             'model' => $model, 'lastNext' => $lastNext, 'center' => $center,
